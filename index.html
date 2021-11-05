@@ -83,17 +83,30 @@
     font-size: 25px;
     font-weight: bold;
 }
+ function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 </style>
  <body>
       <div class="text">
       <h1 class="text">Welcome to teh Becksite</h1>
-      <a href="https://www.instagram.com/b3ckw1nt3r/?"class="text1" id="abs">-Becks instagram</a><br>
-      <a href="https://www.w3schools.com/" class="text2" id="abs">-Becks snapchat</a><br>
-      <a href="url" class="text3" id="abs">-Becks discord</a><br>
-      <a href="url" class="text4" id="abs">-music</a><br>
-      <a href="url" class="text5" id="abs">-pics</a><br>
-      <a href="url" class="text6" id="abs">-misc</a><br>
+      <a href="https://www.instagram.com/b3ckw1nt3r/?"class="text1" id="abs">-Becks instagram</a><br><br><br>
+      <a href="Snapchat-1335311072.jpg" class="text2" id="abs">-Becks snapchat</a><br><br><br>
+      <a href="url" class="text3" id="abs">-Becks discord</a><br><br><br>
+      <a href="https://open.spotify.com/playlist/70mZ6ljvPyPSThr3I6npOj?si=b5e0cc9e39ef4aaf" class="text4" id="abs">-music</a><br><br><br>
+      <a href="url" class="text5" id="abs">-pics</a><br><br><br>
+      <a href="url" class="text6" id="abs">-misc</a>
       </div>
       <div class="my-container">
       </div>
  </body>
+<button onclick="myFunction()">Click Me</button>
+
+<div id="myDIV">
+  This is my DIV element.
+</div>
